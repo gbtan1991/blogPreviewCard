@@ -19,7 +19,7 @@ const learningCards = [
 ]
 
   return (
-    <div className="bg-yellow w-screen h-screen">
+    <div className="bg-yellow w-screen h-screen overflow-auto">
       {learningCards.map((card, index) => (
         <Card key={index} card={card} />
 
