@@ -7,7 +7,16 @@ export default {
         yellow: "hsl(47, 88%, 63%)",
         grey: "hsl(0, 0%, 50%)",
         black: "hsl(0, 0%, 7%)",
+
       },
+
+      fontFamily: {
+        theme: "Figtree, sans-serif"
+      },
+
+      boxShadow: {
+        retro: '8px 8px hsl(0, 0%, 7%)'
+      }
     },
   },
   plugins: [],
