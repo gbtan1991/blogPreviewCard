@@ -22,7 +22,7 @@ const Card = ({ card }) => {
 
   return (
     <div className="grid place-content-center h-full">
-      <div className="flex flex-col w-[300px] bg-white rounded-2xl p-5 border border-black shadow-retro gap-2">
+      <div className="flex flex-col w-[300px] sm:w-[320px] bg-white rounded-2xl p-5 border border-black shadow-retro gap-2">
         <div className="bg-cover bg-no-repeat bg-center h-[180px] rounded-2xl mb-3" style={{backgroundImage: `url(${card.cover})`}}></div>
         <h3 className="py-2 px-2 text-xs/3 text-black font-bold bg-yellow w-[68px] h-[26px] text-center rounded-md font-theme">{card.category}</h3>
         <p className="text-xs font-bold font-theme">

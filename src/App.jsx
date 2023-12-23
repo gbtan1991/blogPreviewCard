@@ -8,13 +8,13 @@ const learningCards = [
     {
       title : "HTML & CSS foundations",
       description : "These languages are the backbone of every website, defining structure, content, and presentation.",
-      cover: "../src/assets/images/illustration-article.svg",
+      cover: "../illustration-article.svg",
       category : "Learning",
       publishedDay : 21,
       publishedMonth : 12,
       publishedYear : 2023,
       author: "Greg Hoopper",
-      authorPhoto: "../src/assets/images/image-avatar.webp",
+      authorPhoto: "../image-avatar.webp",
     }
 ]
 
